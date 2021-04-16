@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.hugo.programmer'
+version '5.3.7-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+test {
+    useJUnitPlatform()
+}
